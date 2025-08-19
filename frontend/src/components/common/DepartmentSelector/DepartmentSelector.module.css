@@ -1,0 +1,139 @@
+
+.container h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.selector {
+  margin-bottom: 15px;
+}
+
+.select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.select:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.loading {
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+  margin: 10px 0 0 0;
+}
+
+.message {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.containerCompact {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+}
+.selectorCompact {
+  margin: 0;
+  padding: 0;
+}
+.selectCompact {
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  min-width: 180px;
+  height: 44px;
+  color: var(--text-color-primary);
+  transition: all 0.2s cubic-bezier(.4,2,.3,1);
+  box-shadow: var(--shadow-xs);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.selectCompact:focus {
+  outline: none;
+  border-color: var(--button-primary-bg);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+} 
+
+.dropdownWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.departmentDropdown {
+  background: #fff;
+  border: 1.5px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color-primary);
+  box-shadow: var(--shadow-xs);
+  height: 51px;
+  min-width: 180px;
+  transition: border 0.2s, box-shadow 0.2s;
+  outline: none;
+  margin-left: 12px;
+  appearance: none;
+  display: flex;
+  align-items: center;
+  padding-right: 2.2em;
+}
+.departmentDropdown:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99,102,241,0.15);
+}
+.dropdownIcon {
+  position: absolute;
+  right: 35px;
+  pointer-events: none;
+  font-size: 1.2em;
+  color: #888;
+  top: 50%;
+  transform: translateY(-55%);
+} 
